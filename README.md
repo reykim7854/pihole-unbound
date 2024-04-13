@@ -6,10 +6,10 @@ Setup [Pi-hole](https://pi-hole.net/) as dhcp server and [as all-around DNS solu
 
 - Install docker
 - Clone this repo
-- Edit TZ & WEBPASSWORD variable in docker-compose.yml
-- Edit `unbound-conf/unbound.conf` as needed
+- Edit `TZ` & `WEBPASSWORD` variable in docker-compose.yml
+- Edit `unbound-conf/unbound.conf` as needed, reference: https://unbound.docs.nlnetlabs.nl/en/latest/ 
 - Run `docker compose up -d`
-- Change your router DNS to your Pi-hole device IP Address
+- Change your router DNS to your raspberry pi IP Address
 
 ## Notes
 
